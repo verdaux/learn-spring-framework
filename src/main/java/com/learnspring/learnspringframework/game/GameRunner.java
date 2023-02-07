@@ -2,10 +2,10 @@ package com.learnspring.learnspringframework.game;
 
 public class GameRunner {
 	
-	private superContraGame game;
+	private GamingConsole game;
 
-	public GameRunner(superContraGame superContrGame) {
-		this.game = superContrGame;
+	public GameRunner(GamingConsole game) {
+		this.game = game;
 	}
 
 	public void run() {
