@@ -8,7 +8,7 @@ public class AppGamingBasicJava {
 
 	public static void main(String[] args)
 	{
-		var marioGame = new MarioGame();
+		var marioGame = new MarioGame(); 
 		var superContrGame = new superContraGame();
 		var gameRunner = new GameRunner(superContrGame);
 		gameRunner.run();
