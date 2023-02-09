@@ -12,6 +12,9 @@ public class AppNewHelloWorldSpring {
 		
 		//2. configure required stuff
 		System.out.println(context.getBean("name"));
+		System.out.println(context.getBean("age"));
+		System.out.println(context.getBean("person"));
+		System.out.println(context.getBean("address"));
 	}
 
 }
